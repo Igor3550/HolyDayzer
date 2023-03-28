@@ -31,4 +31,11 @@ public class Calendar{
     System.out.println("A data " + date + " não é um feriado!");
     return;
   }
+
+  public void returnAllHolyDays() {
+    List<HolyDay> holyDays = getHolyDays();
+    for(int i = 0; i<holyDays.size(); i++){
+      System.out.println(holyDays.get(i).getDate() + " é o feriado de " + holyDays.get(i).getName() + "!");
+    }
+  }
 }

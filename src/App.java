@@ -4,5 +4,6 @@ public class App {
         calendar.verifyDate("01/01/2023");
         calendar.verifyDate("21/02/2023");
         calendar.verifyDate("01/02/2023");
+        calendar.returnAllHolyDays();
     }
 }
